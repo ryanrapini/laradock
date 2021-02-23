@@ -49,6 +49,8 @@ volumes:
     driver: ${VOLUMES_DRIVER}
   cassandra:
     driver: ${VOLUMES_DRIVER}
+  postgres_database:
+    external: true
   graylog:
     driver: ${VOLUMES_DRIVER}
   docker-in-docker:
